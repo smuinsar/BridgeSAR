@@ -1,8 +1,5 @@
 """Amplitude raster I/O: square-pixel loading, streaming mean stacks, and
 export of per-date amplitude GeoTIFFs from an amplitude-only zarr store.
-
-The zarr export is reimplemented on top of rasterio (the original notebook
-helper used GDAL) so the package keeps a minimal dependency set.
 """
 
 from __future__ import annotations
