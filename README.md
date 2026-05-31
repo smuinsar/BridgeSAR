@@ -160,7 +160,7 @@ loadable in Python via `BridgeConfig.named("baybridge_p115")`.)
 
 A complete, runnable walkthrough lives in
 [`examples/baybridge_p115_clearance.ipynb`](examples/baybridge_p115_clearance.ipynb).
-It estimates the San Francisco–Oakland Bay Bridge clearance on track **P115 over
+It estimates the San Francisco–Oakland Bay Bridge West Span clearance on track **P115 over
 2021–2023**, live-streaming the amplitudes from Earthdata, and compares the
 BridgeSAR time-series against the on-bridge NOAA air-gap sensor (station 9414304).
 The notebook covers every step end to end: load the bundled config, check
@@ -171,7 +171,7 @@ plot.
 ![Multipath scattering stripes over the Bay Bridge P115](docs/images/stripes_amp_P115.png)
 
 The multipath stripes BridgeSAR extracts, over the global mean amplitude image of
-the Bay Bridge (track P115): the **single-bounce (S)** stripe in red, the
+the Bay Bridge West Span (track P115): the **single-bounce (S)** stripe in red, the
 **double-bounce (D)** stripe in green and the **triple-bounce (T)** stripe in blue.
 The cyan polyline is the OpenStreetMap bridge centerline used as the zero-training
 prior. The perpendicular spacing between these stripes is what BridgeSAR converts
