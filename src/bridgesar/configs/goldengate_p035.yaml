@@ -1,0 +1,33 @@
+# Golden Gate Bridge, Sentinel-1 P035 ascending.
+bridge_name: Golden Gate Bridge
+track: P035
+
+lat_min: 37.805
+lat_max: 37.835
+lon_min: -122.483
+lon_max: -122.475
+
+deck_height_m: 67.0
+bridge_thickness_m: 7.6
+scatter_model: mixed
+
+k_before: 1
+k_after: 1
+
+contrast_min_threshold: 1.30
+h_mean_mad_k: 3.0
+mask_towers: false
+
+wl_avg_halfwin_hours: 3.0
+wl_primary_id: '9414290'
+airgap_station: null            # no on-bridge air gap; water-level reference only
+wl_stations:
+  - {id: '9414290', name: 'San Francisco, CA', datum: MLLW}
+  - {id: '9415020', name: 'Point Reyes, CA',   datum: MLLW}
+
+osm:
+  names: ['Golden Gate Bridge']
+  refs: ['US 101']
+  bbox: [37.805, -122.490, 37.835, -122.470]
+  utm_epsg: 32610
+  name_regex: 'Golden Gate Bridge'

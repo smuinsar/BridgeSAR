@@ -1,0 +1,32 @@
+# Huey P. Long Bridge (New Orleans, Mississippi River), Sentinel-1 P165 ascending.
+bridge_name: Huey Long Bridge
+track: P165
+
+lat_min: 29.94
+lat_max: 29.9477
+lon_min: -90.1744
+lon_max: -90.1634
+
+deck_height_m: 46.6
+bridge_thickness_m: 1.5
+scatter_model: mixed
+
+k_before: 2
+k_after: 2
+
+contrast_min_threshold: 1.30
+h_mean_mad_k: 3.0
+mask_towers: false
+
+wl_avg_halfwin_hours: 3.0
+wl_primary_id: '8761927'
+airgap_station: '8762002'        # on-bridge NOAA air gap
+wl_stations:
+  - {id: '8761927', name: 'New Canal Station, LA', datum: NAVD}
+
+osm:
+  names: ['Huey P. Long']
+  refs: []
+  bbox: [29.935, -90.180, 29.952, -90.158]
+  utm_epsg: 32615
+  name_regex: 'Huey P\. Long'

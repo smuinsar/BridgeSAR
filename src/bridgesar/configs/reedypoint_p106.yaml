@@ -1,0 +1,32 @@
+# Reedy Point Bridge (Delaware, C&D Canal), Sentinel-1 P106 ascending.
+bridge_name: Reedy Point Bridge
+track: P106
+
+lat_min: 39.556
+lat_max: 39.56
+lon_min: -75.584
+lon_max: -75.581
+
+deck_height_m: 41.0
+bridge_thickness_m: 1.5
+scatter_model: mixed
+
+k_before: 0
+k_after: 0
+
+contrast_min_threshold: 1.30
+h_mean_mad_k: 3.0
+mask_towers: false
+
+wl_avg_halfwin_hours: 3.0
+wl_primary_id: '8551910'
+airgap_station: '8551911'        # on-bridge NOAA air gap
+wl_stations:
+  - {id: '8551910', name: 'Reedy Point, DE', datum: NAVD}
+
+osm:
+  names: ['Reedy Point']
+  refs: ['DE 9']
+  bbox: [39.550, -75.595, 39.565, -75.570]
+  utm_epsg: 32618
+  name_regex: 'Reedy Point'

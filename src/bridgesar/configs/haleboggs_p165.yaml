@@ -1,0 +1,32 @@
+# Hale Boggs Memorial Bridge (Luling, Louisiana), Sentinel-1 P165 ascending.
+bridge_name: Hale Boggs Memorial Bridge
+track: P165
+
+lat_min: 29.9364
+lat_max: 29.946
+lon_min: -90.378
+lon_max: -90.3708
+
+deck_height_m: 41.0
+bridge_thickness_m: 7.0
+scatter_model: mixed
+
+k_before: 1
+k_after: 1
+
+contrast_min_threshold: 1.30
+h_mean_mad_k: 3.0
+mask_towers: false
+
+wl_avg_halfwin_hours: 3.0
+wl_primary_id: '8761955'
+airgap_station: null             # water-level reference only
+wl_stations:
+  - {id: '8761955', name: 'Carrollton, LA', datum: NAVD}
+
+osm:
+  names: ['Hale Boggs']
+  refs: ['I 310']
+  bbox: [29.930, -90.385, 29.950, -90.365]
+  utm_epsg: 32615
+  name_regex: 'Hale Boggs'

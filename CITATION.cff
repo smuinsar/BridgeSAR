@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "BridgeSAR"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Kim
+    given-names: Jinwoo
+repository-code: "https://github.com/smuinsar/BridgeSAR"
+license: MIT
+version: 0.1.0

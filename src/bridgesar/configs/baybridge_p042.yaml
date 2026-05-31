@@ -1,0 +1,33 @@
+# Bay Bridge (San Francisco-Oakland), Sentinel-1 P042 descending.
+bridge_name: Bay Bridge
+track: P042
+
+lat_min: 37.785
+lat_max: 37.81
+lon_min: -122.392
+lon_max: -122.36
+
+deck_height_m: 62.0
+bridge_thickness_m: 9.0
+scatter_model: mixed
+
+k_before: 1
+k_after: 1
+
+contrast_min_threshold: 1.30
+h_mean_mad_k: 3.0
+mask_towers: false
+
+wl_avg_halfwin_hours: 3.0
+wl_primary_id: '9414290'
+airgap_station: '9414304'
+wl_stations:
+  - {id: '9414290', name: 'San Francisco, CA', datum: MLLW}
+  - {id: '9414863', name: 'Richmond, CA',      datum: MLLW}
+
+osm:
+  names: ['Bay Bridge']
+  refs: ['I 80']
+  bbox: [37.78, -122.40, 37.83, -122.30]
+  utm_epsg: 32610
+  name_regex: 'San Francisco.{0,3}Oakland.*Bay Bridge'
