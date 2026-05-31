@@ -1,7 +1,6 @@
 """Fetch bridge centerlines from OpenStreetMap via the Overpass API.
 
-Generalized from the per-bridge ``fetch_osm_*.py`` scripts: the bridge name(s),
-highway ref(s) and bounding box come from a :class:`~bridgesar.config.OSMQuery`.
+the bridge name(s), highway ref(s) and bounding box come from a :class:`~bridgesar.config.OSMQuery`.
 """
 
 from __future__ import annotations

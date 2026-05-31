@@ -1,9 +1,4 @@
-"""Method-E++ stripe extraction: joint single/double/triple-bounce energy fit.
-
-Faithful port of the algorithm in cell 2 of the reference notebooks. Tuning
-constants are passed in via a :class:`~bridgesar.config.HyperParams` instance
-(``hp``); inside each function they are aliased back to the upper-case names
-used in the original code so the numerical behaviour is identical.
+"""stripe extraction: joint single/double/triple-bounce energy fit.
 """
 
 from __future__ import annotations

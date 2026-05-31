@@ -1,8 +1,5 @@
 """NOAA CO-OPS reference data: water-level and air-gap fetch, temporal matching
 to SAR acquisitions, and conversion to pseudo-clearance.
-
-Ported from cells 9-11 of the reference notebooks. ``fetch_*`` pull from the
-public NOAA Tides & Currents API; all times are UTC-aware.
 """
 
 from __future__ import annotations

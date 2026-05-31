@@ -1,8 +1,6 @@
 """Geometry utilities: radar LOS geometry, bridge orientation, and the
 amplitude-image rotation / OSM-projection helpers used by the stripe fit.
 
-Faithful port of cells 1 and 2 of the reference notebooks. Functions are pure
-(no global state) so they can be reused for any bridge.
 """
 
 from __future__ import annotations

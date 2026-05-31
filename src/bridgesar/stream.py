@@ -1,9 +1,5 @@
 """Stream OPERA CSLC-S1 amplitude images and export to an amplitude-only Zarr.
 
-Trimmed from the original ``opera_cslc_s1_stream.py``: the SLC/interferogram and
-Goldstein-filtering paths are removed — BridgeSAR only needs VV amplitude
-mosaics plus the static LOS layers and per-date orbit metadata.
-
 Authentication uses ``earthaccess.login()``, which reads NASA Earthdata / ASF
 credentials from ``~/.netrc``.
 """
