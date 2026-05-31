@@ -168,6 +168,15 @@ The notebook covers every step end to end: load the bundled config, check
 run the clearance time-series, filter, fetch the reference, and
 plot. 
 
+![Multipath scattering stripes over the Bay Bridge P115](docs/images/stripes_amp_P115.png)
+
+The multipath stripes BridgeSAR extracts, over the global mean amplitude image of
+the Bay Bridge (track P115): the **single-bounce (S)** stripe in red, the
+**double-bounce (D)** stripe in green and the **triple-bounce (T)** stripe in blue.
+The cyan polyline is the OpenStreetMap bridge centerline used as the zero-training
+prior. The perpendicular spacing between these stripes is what BridgeSAR converts
+to bridge–water clearance.
+
 ![BridgeSAR clearance vs NOAA air gap — Bay Bridge P115](docs/images/clearance_timeseries_P115.png)
 
 BridgeSAR clearance (red squares, ±1σ) tracks the NOAA air-gap clearance
