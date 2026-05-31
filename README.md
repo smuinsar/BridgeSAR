@@ -171,7 +171,7 @@ plot.
 ![Multipath scattering stripes over the Bay Bridge P115](docs/images/stripes_amp_P115.png)
 
 The multipath stripes BridgeSAR extracts, over the global mean amplitude image of
-the Bay Bridge West Span (track P115): the **single-bounce (S)** stripe in red, the
+the Bay Bridge West Span (descending track P115): the **single-bounce (S)** stripe in red, the
 **double-bounce (D)** stripe in green and the **triple-bounce (T)** stripe in blue.
 The cyan polyline is the OpenStreetMap bridge centerline used as the zero-training
 prior. The perpendicular spacing between these stripes is what BridgeSAR converts
