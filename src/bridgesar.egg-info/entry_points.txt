@@ -1,0 +1,4 @@
+[console_scripts]
+bridgesar-osm = bridgesar.cli:osm_main
+bridgesar-stream = bridgesar.cli:stream_main
+bridgesar-timeseries = bridgesar.cli:timeseries_main
