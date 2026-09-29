@@ -1,5 +1,9 @@
 # BridgeSAR
 
+[![PyPI](https://img.shields.io/pypi/v/bridgesar.svg)](https://pypi.org/project/bridgesar/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Geometry-guided estimation of bridge–water clearance from SAR multipath scattering stripes.**
 
 BridgeSAR measures the vertical clearance between a bridge deck and the water
