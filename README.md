@@ -321,6 +321,12 @@ stream_amplitudes ──▶ amplitude-only Zarr ──┐   (optional: export Ge
                                    airgap_reference() / water-level comparison
 ```
 
+## Citation
+
+If you use BridgeSAR in your research, please cite:
+
+**Kim, J.**, and Lu, Z. (2026), BridgeSAR: Measuring bridge-water clearance from space using SAR multipath signatures, *Geophysical Research Letters*, *53*(19), e2026GL124805, [https://doi.org/10.1029/2026GL124805](https://doi.org/10.1029/2026GL124805)
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
